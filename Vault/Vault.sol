@@ -6,7 +6,7 @@ contract Vault {
     uint public time;
 
     event retire (string mensaje, uint monto);
-    event deposit (string mensake, uint monto);
+    event deposit (string mensaje, uint monto);
 
     function Vault(uint _time) public {
         owner = msg.sender;
